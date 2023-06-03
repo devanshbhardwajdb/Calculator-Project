@@ -1,0 +1,79 @@
+body {
+    background-image: url('12.jpg');
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    text-align: center;
+    padding: 0;
+    margin: 10px;
+    color: white;
+    font-family: 'Market Deco regular';
+    font-size: 2rem;
+    font-weight: 200;
+
+}
+
+.button {
+    padding: 30px;
+    margin: 6.5px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(56, 56, 56);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Couture';
+    font-size: 1.6rem;
+    color: white;
+}
+.btn{
+    background-color: rgb(255, 149, 1);
+    /* color: black; */
+}
+.btn1{
+    background-color: rgb(182, 182, 182);
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 360px;
+    margin: auto;
+    backdrop-filter: blur(5px);
+    background: black;
+    
+   
+}
+
+.row {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+
+
+}
+
+.row input {
+    font-size: 22px;
+    margin: 0;
+    padding: 22px 6px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: 'Market Deco regular';
+    background-color:rgb(182, 182, 182);
+   
+}
