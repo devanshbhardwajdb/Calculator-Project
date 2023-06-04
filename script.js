@@ -11,7 +11,7 @@ button.addEventListener('click',(e)=>{
         document.querySelector('input').value = string;
     }
     else{
-    console.log(e.target);
+    // console.log(e.target);
     string = string + e.target.innerHTML;
     document.querySelector('input').value = string;
     }
